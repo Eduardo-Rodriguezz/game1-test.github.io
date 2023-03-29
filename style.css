@@ -1,0 +1,68 @@
+* {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    color: #acd3f8;
+    text-align: center;
+    background-color: rgb(40, 55, 105);
+    height: 100vh;
+}
+
+.cards {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#piedra, #papel, #tijeras {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    padding-top: 38px;
+}
+
+#piedra, #papel, #tijeras:hover {
+    cursor: pointer;
+}
+
+#piedra {
+    background-image: url('piedraLogo.png');
+    background-size: cover;
+}
+
+#papel {
+    background-image: url('papelLogo.png');
+    background-size: cover;
+}
+
+#tijeras {
+    background-image: url('tijerasLogo.png');
+    background-size: cover;
+}
+
+#puntaje {
+    color: rgb(172, 211, 248);
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+#player-select, #cpu-select {
+    font-size: 1.3rem;
+}
+
+#result {
+    text-shadow: 5px 3px 3px #161414;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+footer {
+    margin-top: 30px;
+}
